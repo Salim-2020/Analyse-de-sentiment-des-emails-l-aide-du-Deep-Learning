@@ -4,6 +4,7 @@ mathématiques. Les mots du texte sont remplacés par leur index dans le diction
 Ensuite, nous ajoutons un remplissage pour rendre tous les vecteurs de même longueur.
 
 Modele  LSTM
+
 — Couche Embeding : Cette couche code le mot entier sous la forme d’un vecteur
 flottant de 64 composants. On a pu utiliser un algorithme d’intégration spécifique
 comme Word2Vec pour effectuer cette tâche, mais on a préféré laisser le réseau
