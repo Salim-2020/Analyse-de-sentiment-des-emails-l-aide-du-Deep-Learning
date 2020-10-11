@@ -18,6 +18,7 @@ connectée (Dense) aura un neurone de sortie avec l’activation Relu
 
 
 Modèle CNN
+
 Dans le model précédent, nous remplaçons la couche LSTM par celle de la convolution1D,
 l’idée derrière l’utilisation des CNN est de bénéficier de leur capacité à extraire
 des fonctionnalités. Le but de l’utilisation de cette couche est d’apprendre la signification
