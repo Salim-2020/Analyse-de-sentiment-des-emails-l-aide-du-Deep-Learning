@@ -9,10 +9,13 @@ Modele  LSTM
 flottant de 64 composants. On a pu utiliser un algorithme d’intégration spécifique
 comme Word2Vec pour effectuer cette tâche, mais on a préféré laisser le réseau
 déterminer quelle est la meilleure intégration pour ce dictionnaire particulier.
+
 — Couche Dropout : Nous utilisons cette couche afin de réduire le sur-ajustement
 du modèle.
+
 — Couche LSTM : La couche récurrente, dans ce modèle nous utilisons la couche
 LSTM. 
+
 — Couche Dense : En fin, pour prédire la cible, nous ajoutons une couche entièrement
 connectée (Dense) aura un neurone de sortie avec l’activation Relu
 
