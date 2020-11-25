@@ -209,7 +209,7 @@ test_sample_1="Cdt LA CLINIQUE SCOOTER." #3
 test_sample_2="Ci-dessous la déclaration de notre assuré reçue à ce jour." #4
 test_sample_3="Notre client a remarqué des dommages lorsque son locataire est parti. Quelles sont les étapes de la déclaration?" #2
 test_sample_4= "Je viens de recevoir un appel du poste de police. Je reviens demain pour récupérer mon certificat de non-gage et je vous l'enverrai directement après une bonne soirée." #6
-test_sample_5="Bonjour, Nous accusons bonne réception de votre mail, il sera traité dans les meilleurs délais. Cordialement, Jessara FURTADO." #5
+test_sample_5="Bonjour, Nous accusons bonne réception de votre mail, il sera traité dans les meilleurs délais. Cordialement." #
 test_samples=[test_sample_1,test_sample_2,test_sample_3,test_sample_4,test_sample_5]
 print(test_samples)
 test_samples_tokens_pad = encode_reviews(tokenizer, test_samples,238)
